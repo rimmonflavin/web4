@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet">
+        <style>
+            .c1{
+                text-align: center;
+                font-size: 30px;
+            }
+            .c2{
+                padding: 10px;
+            }
+            .c3{
+                background-color:#B9AD9F;
+                float: left;
+                position: absolute;
+                top:52px;
+                left: 260px;
+                width: 500px;
+                height: 250px;
+                padding-left:5px;
+               
+            }
+            .name{
+                position: absolute;
+                top: 50PX;
+                text-align: center;
+                left: 60px;
+                font-size: 35px;
+                color: white;
+                font-family: "Courier New", Courier, monospace;
+               
+            }
+            .c6{
+                padding: 10px;
+               position: absolute;
+                top: 100PX;
+                text-align: center;
+                left: 100px;
+                color: white;
+            }
+            .c7{
+                background-color:palegreen;
+                float: left;
+                position: absolute;
+                top:303px;
+                left: 19px;
+                width: 230px;
+                height: 430px;
+                padding-left:10px;
+            }
+            .c8{
+                position: absolute;
+                top: 100px;
+                left: 15px;
+                color: white;
+                font-size: 30px;
+                font-family: "Courier New", Courier, monospace;  
+            }
+            .c9{
+                font-size: 15px;
+                padding-top:140px;
+            }
+           
+            .skills1{
+                background-color:#D6C4E3;
+                float: left;
+                position: absolute;
+                top:733px;
+                left: 19px;
+                width: 230px;
+                height: 440px;
+                padding-left:10px;
+                padding-bottom: 10px;
+            }
+            .s1{
+               position: absolute;
+                top: 45px;
+                left: 15px;
+                color: white;
+                font-size: 30px;
+                font-family: "Courier New", Courier, monospace;  
+            }
+            .experiance{
+                background-color:white;
+                float: left;
+                position: absolute;
+                top:303px;
+                left: 260px;
+                width: 500px;
+                height: 410px;
+                padding-left:5px;
+            }
+            .e1{
+                padding: 15px;
+                padding-left: 20px;
+                font-size: 30px;
+                font-family: "Courier New", Courier, monospace;
+                color: blue;
+            }
+            .e2{
+               padding-left: 20px;
+            }
+            .e3{
+               padding-left: 20px;
+               padding-top: 5px;
+            }
+            .e4{
+                padding-left: 20px;
+                padding-top: 15px;
+            }
+            .e5{
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+            .e6{
+                padding-left: 20px;
+                padding-top: 15px;
+            }
+            .e7{
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+            .education{
+                background-color:white;
+                float: left;
+                position: absolute;
+                top:713px;
+                left: 260px;
+                width: 500px;
+                height: 350px;
+                padding-left:5px;
+            }
+            .ed1{
+                padding: 15px;
+                padding-left: 20px;
+                padding-top: 50px;
+                font-size: 30px;
+                font-family: "Courier New", Courier, monospace;
+                color: #FFB6C1;
+            }
+            .ed2{
+                padding-left: 20px;
+            }
+            .ed3{
+               padding-left: 20px;
+               padding-top: 10px;
+            }
+            .ed4{
+                padding-top: 15px;
+                padding-left: 20px;
+            }
+            .ed5{
+                padding-left: 20px;
+                padding-top: 10px;
+            }
+            .personal_info{
+                position: absolute;
+                top: 52px;
+                left: 780px;
+                background-color: brown;
+                width: 500px;
+                height: 500px;
+            }
+            .pf1{
+                padding-top: 20px;
+                padding-left: 20px;
+                font-size: 30px;
+                color: white;
+                font-family: "Courier New", Courier, monospace;
+            }
+           
+            .pf2{
+                padding-left: 20px;
+                padding-bottom: 5px;
+                font-size: 20px;
+                color: white;
+            }
+            .pf3{
+                padding-top: 20px;
+                padding-left: 20px;
+                font-size: 30px;
+                color: white;
+                font-family: "Courier New", Courier, monospace;
+            }
+            .pf4{
+                padding-left: 20px;
+                padding-bottom: 5px;
+                font-size: 20px;
+                color: white;
+            }
+            .strenghhts{
+                position: absolute;
+                top: 560px;
+                left: 780px;
+                background-color: #669999;
+                width: 500px;
+                height: 300px;
+            }
+            .ss1{
+                padding-top: 20px;
+                padding-left: 20px;
+                font-size: 30px;
+                color: white;
+                font-family: "Courier New", Courier, monospace;
+            }
+            .ss2{
+                padding-left: 20px;
+                padding-bottom: 5px;
+                font-size: 20px;
+                color: white;
+            }
+            .container {
+                       width: 100%;
+                       background-color:#ddd;
+                       }
+
+            .skills {
+                    text-align: right;
+                    padding-top: 1px;
+                    padding-bottom: 1px;
+                    color: white;
+                    }
+
+            .html {width: 90%; background-color: papayawhip;}
+            .h1{
+                padding: 10px;
+            }
+            .css {width: 80%; background-color: powderblue;}
+            .h2{
+                padding: 10px;
+            }
+            .js {width: 65%; background-color: #f44336;}
+            .h3{
+                padding: 10px;
+            }
+            .php {width: 60%; background-color: #808080;}
+            .h4{
+                padding: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="c1">RESUME</div>
+        <div class="c2">
+            <img src="download.jpg" alt="image not found" width="250" height="250">
+        </div>
+            <div class="c3">
+                <div class="name">
+                <span class="c4">
+                    CHRIST S RIMMON
+                </span>
+                <span class="c5">
+                    
+                </span>
+                </div>
+                <div class="c6">
+                No,West Rani st,Big Bazzar,TRICHY .<br>
+                ph no- 91-9080482589.<br>
+                 flavinsesu@gmail.com
+                </div>                
+            </div>
+        <div class="c7">
+            <div class="c8">
+                ABOUT ME
+            </div>
+            <div class="c9">
+                HomeHealth TopicsKids' HealthFamily Relationships
+Family Relationships
+Basics
+Family Relationship Basics
+Improving Your Family's Mood
+Write Love Letters
+Share Joy
+A Mother’s Love: Inspiring Quotations
+A Mother’s Love: Inspiring Quotations
+ 4 262 32StumbleUpon33 PrintPrint
+Celebrate Mother's Day Everyday & Cherish Mom
+The moment a child is born, the mother is also born. She never existed before. The woman existed, but the mother, never. A mother is something absolutely new.—Rajneesh
+
+
+Mother’s Love Image - Masterfile
+God could not be everywhere, so therefore he made mothers.—Jewish Proverb
+
+Motherhood: All love begins and ends there.—Robert Browning
+
+Being a mother is learning about strengths you didn't know you had, and dealing with fears you didn't know existed.—Linda Wooten
+
+A Mother's love is something that no one can explain,
+It is made of deep devotion and of sacrifice and pain,
+It is endless and unselfish and enduring come what may
+For nothing can destroy it or take that love away—Helen Steiner Rice
+
+My mother's love has always been a sustaining force for our family, and one of my greatest joys is seeing her integrity, her compassion, her intelligence reflected in my daughters.—Michelle Obama
+
+The hand that rocks the cradle Is the hand that rules the world—What Rules the World
+
+A mother's arms are made of tenderness and children sleep soundly in them.—Victor Hugo
+
+I cannot forget my mother. Though not as sturdy as others, she is my bridge. When I needed to get across, she steadied herself long enough for me to run across safely.—Renita Weems
+
+A mother is not a person to lean on but a person to make leaning unnecessary.—Dorothy Canfield Fisher
+
+My mom is literally a part of me. You can't say that about many people except relatives, and organ donors.—Carrie Latet
+
+I love my mother as the trees love water and sunshine—she helps me grow, prosper, and reach great heights.—Terri Guillemets
+
+The most important thing she'd learned over the years was that there was no way to be a perfect mother and a million ways to be a good one.—Jill Churchill, O Magazine, May 2003
+            </div>
+        </div>
+        <div class="skills1">
+           
+            <div class="s1">
+                SKILLS
+                <div class="h1">HTML</div>
+                <div class="container">
+                <div class="skills html">70%</div>
+                </div>
+                <div class="h2">PYTHON</div>
+                 <div class="container">
+                <div class="skills css">90%</div>
+                 </div>
+                 <div class="h3">C++</div>
+                 <div class="container">
+                <div class="skills js">55%</div>
+                 </div>
+                  <div class="h4">JAVA</div>
+                 <div class="container">
+                <div class="skills php">60%</div>
+                 </div>
+            </div>
+        </div>
+        <div class="experiance">
+          <div class="e1">
+           EXPERIANCE  
+          </div>
+            <div class="e2">
+            SALES FORCE TEAM LEADER[2006-NOW]
+            </div>
+            <div class="e3">
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+            The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+            as opposed to using 'Content here,
+            content here', making it look like readable English.
+            </div>
+            <div class="e4">
+                SALES MANAGER[2003-2006]
+            </div>
+            <div class="e5">
+            There are many variations of passages of Lorem Ipsum available,
+            but the majority have suffered alteration in some form,
+            by injected humour, or randomised words which don't look even slightly believable.  
+            </div>
+            <div class="e6">
+             SALESPERSON[1999-2003]  
+            </div>
+            <div class="e7">
+            The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+            Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form,
+            accompanied by English versions from the 1914 translation by H.
+            Rackham.  
+            </div>
+        </div>
+        <div class="education">
+            <div class="ed1">
+             EDUCATION  
+            </div>  
+             <div class="ed2">
+             HIGH SCHOOL[1996-1999]
+            </div>
+             <div class="ed3">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+              Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+            </div>
+             <div class="ed4">
+             SCHOOL[1994-1996]
+            </div>
+             <div class="ed5">
+             Contrary to popular belief,
+             Lorem Ipsum is not simply random text.
+             It has roots in a piece of classical Latin literature from 45 BC,
+             making it over 2000 years old.
+            </div>
+        </div>
+        <div class="personal_info">
+            <div class="pf1">
+                HOBBIS
+            </div>
+            <div class="pf2">
+                <p>Traveling</p>
+                <p>Reading Books</p>
+                <p>Playing Cricket</p>
+                <p>Watching Tv</p>
+            </div>
+            <div class="pf3">
+                CERTIFICATIONS
+            </div>
+            <div class="pf4">
+                <p>Html and Css From Udemy</p>
+                <p>Python From Edx</p>
+                <p>Java Script and Php from Coursera</p>
+            </div>
+        </div>
+        <div class="strenghhts">
+            <div class="ss1">
+                STRENGHTS
+            </div>
+            <div class="ss2">
+                <p>Good in Communication Skills</p>
+                <p>Easily Adaptable</p>
+                <p>Team Work</p>
+                <p>Quick Learner</p>
+            </div>
+        </div>
+       
+       
+    </body>
+</html>
